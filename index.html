@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bryan First Web</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="nav">
+      <nav class="isi">
+        <div class="logo">
+          <img class="gambar" src="asset/logo.png" />
+          <div class="ibay">Ibay</div>
+          <div class="graph">Graph</div>
+        </div>
+
+        <ul class="navigasi">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- navigation bar end -->
+
+    <div class="title">
+      <h1>Your Best Travel Agent</h1>
+      <h4>Your Happiness Is Our Happiness</h4>
+    </div>
+    <div class="container">
+      <div class="photo">
+        <img name="slide" width="400" height="200" />
+        <h5>"Liburan jadi menyenangkan bersama travel agentku"</h5>
+        <div class="photo_logo">
+          <img src="asset/user-solid-240.png" alt="hilang" />
+          <h5>Bryan Carlos<br />Pelajar SMA,17</h5>
+        </div>
+        <div class="lorem">
+          <h4>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+            eum provident ipsum laboriosam dolore in autem deserunt vel libero
+            voluptate repudiandae velit quia officiis minima eligendi maiores
+            ullam, eos corrupti.
+          </h4>
+        </div>
+        <div class="list">
+          <div class="satu">
+            <i class="fa-solid fa-1"></i>
+            <h5>
+              Yout first feature,written in the form of a benefit statement.
+            </h5>
+          </div>
+          <div class="dua">
+            <i class="fa-solid fa-2"></i>
+            <h5>
+              Your second feature,written in the form of a benefit statement.
+            </h5>
+          </div>
+          <div class="tiga">
+            <i class="fa-solid fa-3"></i>
+            <h5>
+              Your third feature,written in the form of a benefit statement.
+            </h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="form">
+        <h3 class="contact">Contact Us</h3>
+        <h5 class="sales">sales will contact you</h5>
+
+        <form class="input_form" id="inputform">
+          <label for="nama">First name</label>
+          <input type="text" id="nama" placeholder="First and last name" />
+          <h6 id="errornama" class="error"></h6>
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="example@gmail.com" />
+          <h6 id="erroremail" class="error"></h6>
+          <label for="option">What are you interested in?</label>
+          <select id="option" name="tempat">
+            <option value="Bali">Bali</option>
+            <option value="Japan">Japan</option>
+            <option value="Singapore">Singapore</option>
+          </select>
+          <h6 id="errorname" class="error"></h6>
+          <button type="button" class="form_button" onclick="validateForm()">Submit</button>
+        </form>
+
+      </div>
+    </div>
+
+    <!-- our package -->
+    <div class="package">
+      <h1>Our Package</h1>
+    </div>
+
+    <div class="content">
+      <div class="prom">
+        <img src="asset/edit-location-solid-240.png" alt="hilang" width="25%" />
+        <h4>Bali</h4>
+        <p>
+          travel dan wisata diBali. kunjungi cagar budaya dan kuliner yang
+          mernarik
+        </p>
+      </div>
+
+      <div class="prom">
+        <img src="asset/edit-location-solid-240.png" alt="hilang" width="25%" />
+        <h4>Japan</h4>
+        <p>
+          travel dan wisata diBali. kunjungi cagar budaya dan kuliner yang
+          mernarik
+        </p>
+      </div>
+
+      <div class="prom">
+        <img src="asset/edit-location-solid-240.png" alt="hilang" width="25%" />
+        <h4>Singapore</h4>
+        <p>
+          travel dan wisata diBali. kunjungi cagar budaya dan kuliner yang
+          mernarik
+        </p>
+      </div>
+
+      <div class="prom">
+        <img src="asset/edit-location-solid-240.png" alt="hilang" width="25%" />
+        <h4>Bandung</h4>
+        <p>
+          travel dan wisata diBali. kunjungi cagar budaya dan kuliner yang
+          mernarik
+        </p>
+      </div>
+
+      <div class="prom">
+        <img src="asset/edit-location-solid-240.png" alt="hilang" width="25%" />
+        <h4>Surabaya</h4>
+        <p>
+          travel dan wisata diBali. kunjungi cagar budaya dan kuliner yang
+          mernarik
+        </p>
+      </div>
+
+      <div class="prom">
+        <img src="asset/edit-location-solid-240.png" alt="hilang" width="25%" />
+        <h4>Ambon</h4>
+        <p>
+          travel dan wisata diBali. kunjungi cagar budaya dan kuliner yang
+          mernarik
+        </p>
+      </div>
+    </div>
+
+    <div class="closing">
+      <h1>Thank you Revou</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam dolore
+        vitae quidem voluptate ipsa atque esse nesciunt maxime reprehenderit
+        corporis.
+      </p>
+      <button>Back to Home</button>
+    </div>
+
+    <div class="footer">
+      <div class="links">
+        <a href="">Bryan Carlos Matruti</a>
+      </div>
+
+      <div class="credit">
+        <p>Dibuat oleh Bryangraph | &copy; 2023</p>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
