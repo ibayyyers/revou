@@ -1,0 +1,240 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+}
+
+.isi {
+  display: flex;
+  width: 100%;
+  height: 75px;
+  background-color: wheat;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.gambar {
+  height: 100px;
+  width: 100px;
+  size: 100px;
+}
+
+.ibay {
+  color: rgb(4, 171, 143);
+  font-size: 50px;
+}
+
+.graph {
+  color: aliceblue;
+  font-size: 35px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  padding: 10px;
+  padding-left: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  color: white;
+  padding-right: 18px;
+}
+
+.navigasi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.navigasi > li {
+  list-style-type: none;
+  padding: 15px;
+}
+
+.navigasi > li > a:hover {
+  color: cyan;
+  transition: all 0.5 ease-in-out;
+}
+
+.navigasi > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.fa-user {
+  font-size: 35px;
+}
+
+.title {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+.title h4 {
+  margin-top: 15px;
+}
+
+.container {
+  width: 1000px;
+  height: 850px;
+  left: 750px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.photo {
+  max-width: 50%;
+  max-height: 50%;
+  float: left;
+  margin-right: 25px;
+}
+.photo img {
+  width: 100%;
+}
+
+.photo h5 {
+  text-align: center;
+  font-size: 15px;
+}
+
+.photo_logo {
+  display: flex;
+  margin: 35px 0px 30px 50px;
+  flex-direction: row;
+}
+.photo_logo h5 {
+  margin-left: 20px;
+}
+
+.photo_logo img {
+  width: 10%;
+}
+
+.form {
+  float: right;
+  width: 350px;
+  height: 450px;
+  padding: 80px 40px;
+  background-color: antiquewhite;
+}
+.input_form {
+  display: flex;
+  flex-direction: column;
+  font-size: 25px;
+}
+.contact {
+  text-align: center;
+  font-size: 25px;
+}
+.sales {
+  text-align: center;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.lorem {
+  margin-top: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.list h5 {
+  margin-left: 25px;
+}
+.satu {
+  display: flex;
+  margin: 15px;
+}
+.dua {
+  display: flex;
+  margin: 15px;
+}
+.tiga {
+  display: flex;
+  margin: 15px;
+}
+
+.package {
+  height: 150px;
+  background-color: rgba(128, 128, 128, 0.486);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.package,
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: underline;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 35px;
+  margin: 40px auto;
+  width: 90%;
+}
+
+.prom {
+  font-size: 25px;
+  margin: 30px;
+}
+.prom, a {
+  text-align: center;
+}
+.prom img {
+  width: 25% auto;
+}
+
+.closing {
+  text-align: center;
+}
+.closing,
+p {
+  margin-top: 20px;
+}
+
+.closing,
+button {
+  margin-top: 25px;
+}
+
+.footer {
+  background-color: antiquewhite;
+}
+.links {
+  text-align: center;
+  margin-top: 35px;
+  padding: 10px;
+  font-size: 26px;
+}
+.credit {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .photo, .form {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+  }
+}
